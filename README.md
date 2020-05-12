@@ -14,7 +14,7 @@ We're building a platform where programmers can log issues they face while codin
 </ul>
 
 <h3>Challenges Faced:</h3>
- <h5>Change the colour of the checkbox:</h5>
+ <h5> 1. Change the colour of the checkbox:</h5>
  I have been trying to change the colour of the checkbox and have not found a solution yet. Will update soon.
  <h5>Fix:</h5>
  I used the custom checkbox generstor at https://bun.js.org/ and was able to get it done.
