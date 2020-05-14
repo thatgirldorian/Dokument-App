@@ -28,3 +28,8 @@ We're building a platform where programmers can log issues they face while codin
 
 <h3>Screenshots:</h3>
 
+![3](https://user-images.githubusercontent.com/40691059/81982043-134f2180-9629-11ea-9162-704f9927a08a.PNG)
+
+![4](https://user-images.githubusercontent.com/40691059/81982063-1a762f80-9629-11ea-8b1a-9216ca47ff3f.PNG)
+
+
