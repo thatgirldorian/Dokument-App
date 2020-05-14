@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Responsive CSS CSS -->
+    <link rel="stylesheet" href="responsive.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+
+
+    <title>Dokument App</title>
+  </head>
+
+
+  <body>
+
+<!-- Login/Signup Pop-up Area -->
+
+<div id="wrap" class="grid_1200">
+  
+  <div class="login-panel">
+    <section class="container">
+      <div class="row">
+        <div class="col-md-6">
+
+
+          <div class="page-content">
+            <h2>Login</h2>
+            <div class="form-style form-style-3">
+              <form>
+                <div class="form-inputs clearfix">
+                  <p class="login-text">
+                    <input class="userbox" type="text" value="Username" onfocus="if (this.value == 'Username') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Username';}">
+                    <i class="fas fa-user-circle"></i>
+                  </p>
+                  <p class="login-password">
+                    <input type="password" value="Password" onfocus="if (this.value == 'Password') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Password';}">
+                    <i class="fas fa-unlock-alt"></i>
+                    <button class="forgot-ps"><a href="">Forgot it?</a></button>
+                  </p>
+                </div>
+                <p class="form-submit login-submit">
+                  <input type="submit" value="Log in" class="button color small login-submit submit">
+                </p>
+                <div class="rememberme">
+                  <label class="b-contain">
+                         <span>Remember Me</span>
+                        <input type="checkbox">
+                        <div class="b-input"></div>
+                  </label>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-6" id="new">
+          <div class="page-content Signup">
+            <h2>Sign up</h2>
+            <p>To log your programming questions and answers, you need an account. 
+              <br>
+            Create one below.</p>
+            <input type="submit" value="Create your account" class="button color small signup" id="create-account">
+            
+            
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+  <!-- Registration form -->
+
+  <div class="panel-pop" id="signup">
+    <h2>Signup Now<i class="fas fa-window-close"></i></h2>
+    <div class="form-style form-style-3">
+      <form>
+        <div class="form-inputs clearfix">
+          <p>
+            <label class="required">Username<span>*</span></label>
+            <input type="text">
+          </p>
+          <p>
+            <label class="required">Email<span>*</span></label>
+            <input type="email">
+          </p>
+          <p>
+            <label class="required">Password<span>*</span></label>
+            <input type="password" value="">
+          </p>
+          <p>
+            <label class="required">Confirm password<span>*</span></label>
+            <input type="password" value="">
+          </p>
+        </div>
+        <p class="form-submit">
+          <input type="submit" value="Register" class="button color small submit">
+        </p>
+      </form>
+    </div>
+  </div>
+
+
+
+
+
+  
+  
+
+
+    
+     
+    
+<script src="script.js"></script>
+  </body>
+</html>

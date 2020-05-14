@@ -1,0 +1,421 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
+ 
+body {
+	background-color: #fffffe;
+	color: black;
+	font-family: 'Open Sans';
+}
+
+#warp {
+	background-color: #00ebc7;
+	display: none;
+}
+
+/* Login Pop-up Area */
+
+/*
+.boxed_body {
+	background: url(images/patterns/bg13.png) repeat;
+}
+.boxed_body_2 {
+	background: url(https://2code.info/demo/html/ask-me/images/demo/bg_big.jpg) no-repeat center center fixed;
+	background-size: 100% 100%;
+}
+.boxed_body2 {
+	background: url(https://2code.info/demo/html/ask-me/images/demo/bg-image1.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.boxed,.boxed2 {
+	background-color: #f3f3f3;
+	width: 970px;
+	margin: 0 auto;
+	-webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+	position: relative;
+}
+.index-no-box {
+	margin-bottom: 70px;
+}
+.grid_970 .container {
+	width: 970px;
+}
+.boxed2 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}  */
+
+.login-panel {
+	padding: 20px 0;
+	background-color: #fffffe;
+}
+
+ .page-content {
+	background: transparent;
+	border: none;
+	padding-left: 95px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+    display: inline-block;
+}
+
+.Signup {
+	position: relative;
+	left: 500px;
+	bottom: 245px;    
+}
+
+.login-panel h2 {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.login-panel p {
+	color: #1b2d45;
+}
+
+.login-panel input[type="text"],.login-panel input[type="password"] {
+	border: 1px solid #0077b6;
+	background-color: #f1faee;
+	color: black;
+	padding-left: 37px;
+}
+
+.login-panel .form-inputs p {
+	margin-bottom: 10px;
+	
+}
+
+.login-text input, .login-password input {
+   height: 35px;
+   width: 350px;
+   position: relative;
+   border-radius: 8px;
+   font-weight: 600;
+   font-family: 'Open Sans';
+
+}
+
+.fa-unlock-alt, .fa-user-circle {
+	font-size: 20px;
+	position: absolute;
+	left: 110px;
+	padding-top: 8px;
+	color: #0077b6;
+}
+
+.login-submit, .signup {
+	width: 390px;
+	height: 35px;
+	border-radius: 8px;
+	color: white;
+	background-color: #0077b6;
+	right: 50px;
+	
+}
+
+.forgot-ps {
+	background: none;
+	border-radius: 4px;
+	border: 0;
+	position: relative;
+	right: 880px;
+	bottom: 495px;
+
+}
+
+.forgot-ps a {
+	color: black;
+	text-decoration: none;
+}
+
+.login-panel input[type="submit"],.login-panel .signup {
+	font-size: 15px;
+	font-weight: bold;
+	border: none;
+}
+
+.login-panel input[type="submit"]:hover {
+	background-color: #03045e;
+}
+
+.signup:hover {
+	background-color: #03045e;
+}
+
+.small:hover {
+	background-color: #03045e;
+}
+
+.forgot-ps {
+	text-align: right;
+	position: absolute;
+}
+
+/*Checkbox styling from bun.js.org */
+
+.b-contain *, .b-contain *::before, .b-contain *::after {
+	box-sizing: content-box !important;
+}
+
+.b-contain input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+
+.b-contain span {
+	line-height: 1.54;
+	font-size: 1rem;
+	font-family: inherit;
+}
+
+.b-contain {
+	display: table;
+	position: relative;
+	padding-left: 1.8rem;
+	cursor: pointer;
+	margin-bottom: .5rem
+}
+
+.b-contain input[type="checkbox"] ~ .b-input {
+	position: absolute;
+	bottom: 4px;
+	left: 0;
+	height: 0.9rem;
+	width: 1rem;
+	background: rgba(241, 245, 248, 1);
+	transition: background 250ms;
+	border: 1px solid #0077b6;
+	border-radius: 0.125rem;
+}
+
+.b-contain input[type="radio"] ~ .b-input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 1.25rem;
+	width: 1.25rem;
+	background: rgba(241, 245, 248, 1);
+	transition: background 250ms;
+	border: 1px solid rgba(184, 194, 204, 1);
+	border-radius: 2.0rem;
+}
+
+.b-contain input[type="checkbox"] ~ .b-input::after {
+	content: '';
+	position: absolute;
+	display: none;
+	left: .4rem;
+	top: .1rem;
+	width: .25rem;
+	height: .6rem;
+	border: solid rgba(255, 255, 255, 1);
+	border-width: 0 2px 2px 0;
+	transition: background 250ms;
+	transform: rotate(45deg);
+}
+
+.b-contain input[type="radio"] ~ .b-input::after {
+	content: '';
+	position: absolute;
+	display: none;
+	left: .25rem;
+	top: .25rem;
+	width: .75rem;
+	height: .75rem;
+	border-radius: 2.0rem;
+	background: rgba(255, 255, 255, 1);
+	transition: background 250ms;
+}
+
+.b-contain input:disabled ~ .b-input::after {
+	border-color: rgba(135, 149, 161, 1);
+}
+
+.b-contain input:checked ~ .b-input::after {
+	display: block;
+}
+
+.b-contain:hover input ~ .b-input,
+.b-contain input:focus ~ .b-input {
+	background: rgb(231, 238, 243);
+}
+
+
+.b-contain input:checked ~ .b-input {
+	background: #0077b6;
+	border-color: rgba(0, 130, 243, 1);
+}
+
+.b-contain input[type="checkbox"]:disabled ~ .b-input {
+	background: rgba(241, 245, 248, 1);
+	border-color: rgba(184, 194, 204, 1);
+	opacity: 0.6;
+	cursor: not-allowed;
+}
+
+.b-contain input[type="radio"]:disabled ~ .b-input {
+	background: rgba(241, 245, 248, 1);
+	border-color: rgba(184, 194, 204, 1);
+	opacity: 0.6;
+	cursor: not-allowed;
+}
+
+.b-contain input[type="radio"]:disabled ~ .b-input::after {
+	background: rgba(135, 149, 161, 1);
+}
+
+.b-contain input:checked:focus ~ .b-input, .b-contain:hover input:not([disabled]):checked ~ .b-input {
+	background: #0077b6;
+	border-color: rgba(13, 143, 255, 1);
+}
+
+.b-contain .b-input::before {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 3rem;
+	height: 3rem;
+	margin-left: -0.85rem;
+	margin-top: -0.85rem;
+	background: rgba(0, 130, 243, 1);
+	border-radius: 2rem;
+	opacity: .6;
+	z-index: 99999;
+	transform: scale(0);
+}
+
+@keyframes b-ripple {
+	0% {
+		transform: scale(0);
+	}
+
+	20% {
+		transform: scale(1);
+	}
+
+	100% {
+		opacity: 0;
+		transform: scale(1);
+  	}
+}
+
+@keyframes b-ripple-duplicate {
+	0% {
+		transform: scale(0);
+	}
+
+	30% {
+		transform: scale(1);
+	}
+
+	60% {
+		transform: scale(1);
+	}
+
+	100% {
+		opacity: 0;
+		transform: scale(1);
+  	}
+}
+
+.b-contain input + .b-input::before {
+	animation: b-ripple 250ms ease-out;
+}
+
+.b-contain input:checked + .b-input::before {
+	animation-name: b-ripple-duplicate;
+}
+
+.b-contain .b-input::before {
+	visibility: hidden;
+}
+
+.b-contain input:focus + .b-input::before {
+	visibility: visible;
+}
+
+.b-contain:first-child .b-input::before {
+	visibility: hidden;
+}
+
+/* Registration form */
+.panel-pop {
+	background-color: white;
+	border: 4px solid #f1faee;
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+	width: 580px;
+	height: 400px;
+	padding: 20px;
+	position: fixed;
+	top: 150px;
+	left: 50%;
+	margin-left: -290px;
+	z-index: 998;
+	overflow: hidden;
+	color: black;
+	display: none;	
+}
+
+.panel-pop p {
+	font-size: 14px;
+}
+
+.panel-pop h2, .login h2,.contact-us h2,#related-posts h2,.user-profile h2 {
+	border-bottom: 2px solid #f1faee;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	font-size: 20px;
+	font-weight: 800;
+	color: #0077b6;
+}
+
+.panel-pop i {
+	font-size: 20px;
+	float: right;
+	color: #0077b6;
+	cursor: pointer;
+	margin-top: 4px;
+}
+
+.panel-pop .form-style input {
+	width: 100%;
+	height: 35px;
+	border-radius: 8px;
+	border: 1px solid #0077b6;
+	background-color: white;
+}
+
+.panel-pop .form-style span {
+	color: red;
+}
+
+.panel-pop .form-style input.submit {
+	width: 100%;
+	height: 35px;
+	border-radius: 8px;
+	color: white;
+	background-color: #0077b6;
+	border: none;
+	font-size: 16px;
+	font-weight: 600;
+
+}
+
+.panel-pop .form-style input.submit:hover {
+	background-color: #03045e;
+}
+
+.required {
+	margin-bottom: 2px;
+	padding-top: 10px;
+	font-weight: 600;
+}
