@@ -3,7 +3,8 @@ var createAccount = document.querySelector("input.button.small.signup");
 var signupForm = document.querySelector("div.panel-pop");
 var closeBtn = document.querySelector(".fas.fa-window-close");
 var forgotBtn = document.getElementById("lost-ps"); 
-var loginBtn = document.getElementById('login-btn');
+var forgotForm = document.getElementById('forgot-password');
+
 
 //REGISTRATION FORM
 //Creating a function for the signup form pop up
@@ -20,6 +21,7 @@ createAccount.addEventListener("click", function () {
 closeBtn.addEventListener("click", function () {
      signup.style.visibility = "hidden";
 });
+
 
 //Tapping the create button again
 document.querySelector(".fas.fa-window-close").addEventListener('click', () => {
@@ -38,6 +40,4 @@ forgotBtn.addEventListener('click', function () {
 	}
 	
 });
-
-
 
