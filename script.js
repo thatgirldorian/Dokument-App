@@ -29,7 +29,15 @@ document.querySelector(".fas.fa-window-close").addEventListener('click', () => {
 });
 
 
-
+//FORGOT PASSWORD FORM
+forgotBtn.addEventListener('click', function () {
+	if (forgotForm.style.display = 'none') {
+		forgotForm.style.display = 'block'
+	} else {
+    forgotForm.style.display = 'block'
+	}
+	
+});
 
 
 
