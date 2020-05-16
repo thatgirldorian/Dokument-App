@@ -419,3 +419,11 @@ body {
 	padding-top: 10px;
 	font-weight: 600;
 }
+
+.forgot-text {
+	font-size: 13px;
+}
+
+#forgot-password {
+	display: none;
+} 
