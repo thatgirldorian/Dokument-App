@@ -1,9 +1,12 @@
-//Creating a function for the signup form pop up
+
 var createAccount = document.querySelector("input.button.small.signup");
 var signupForm = document.querySelector("div.panel-pop");
 var closeBtn = document.querySelector(".fas.fa-window-close");
+var forgotBtn = document.getElementById("lost-ps"); 
+var loginBtn = document.getElementById('login-btn');
 
-
+//REGISTRATION FORM
+//Creating a function for the signup form pop up
 createAccount.addEventListener("click", function () {
 	if (signupForm.style.display === "none") {
 		signupForm.style.display = "block"
@@ -18,12 +21,15 @@ closeBtn.addEventListener("click", function () {
      signup.style.visibility = "hidden";
 });
 
-
-createAccount.addEventListener("click", function () {
-	if (signupForm.style.display === "none") {
-		signupForm.style.display = "block"
-	} else {
-		signupForm.style.display = "none"
-	};
-
+//Tapping the create button again
+document.querySelector(".fas.fa-window-close").addEventListener('click', () => {
+	document.querySelector('input.button.small.signup').addEventListener('click', () => {
+		document.querySelector('.panel-pop').style = 'display:block';
+	})
 });
+
+
+
+
+
+
