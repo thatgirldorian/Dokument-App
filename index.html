@@ -43,11 +43,11 @@
                   <p class="login-password">
                     <input type="password" value="Password" onfocus="if (this.value == 'Password') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Password';}">
                     <i class="fas fa-unlock-alt"></i>
-                    <button class="forgot-ps"><a href="">Forgot it?</a></button>
+                    <button id="lost-ps" class="forgot-ps"><a href="">Forgot it?</a></button>
                   </p>
                 </div>
-                <p class="form-submit login-submit">
-                  <input type="submit" value="Log in" class="button color small login-submit submit">
+                <p id="login-btn" class="form-submit login-submit">
+                  <input id="login-button" type="submit" value="Log in" class="button color small login-submit submit">
                 </p>
                 <div class="rememberme">
                   <label class="b-contain">
@@ -109,6 +109,7 @@
     </div>
   </div>
 
+
 <!-- Forgot password -->
 <div class="panel-pop" id="forgot-password">
     <h2>Forgot Password?<i class="fas fa-window-close"></i></h2>
@@ -132,14 +133,8 @@
   </div> 
 
 
-
-
-
   
   
-
-
-    
      
     
 <script src="script.js"></script>
