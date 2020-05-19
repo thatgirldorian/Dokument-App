@@ -22,7 +22,7 @@ We're building a platform where programmers can log issues they face while codin
  <h5> 2. Adjust 'Signup button hover color':</h5>
  I could not get the signup button to display the color I wanted all through the button and the space containing the words "Create your account".
  <h5>Fix:</h5>
- I switched the <button> element for <input> and it worked great.
+ I switched the button element for input and it worked great.
 
 <h3>Solution:</h3>
 
