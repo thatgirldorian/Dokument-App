@@ -2,7 +2,7 @@
 
 <h3>Function & Description:</h3>
 This is a web app I'm working on with my friend, Dara. I'm only responsible for the front-end (user interface).
-We're building a platform where programmers can log issues they face while coding and the solutions that take them out of that rut.
+We're building a platform that lets programmers log issues they face while coding and the solutions that take them out of that rut.
 
 
 <h3>Technology Used:</h3>
