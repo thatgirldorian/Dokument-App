@@ -27,6 +27,7 @@ We're building a platform that lets programmers log issues they get while coding
  <h5> Some more issues:</h5>
  
  - Need to fix the space between the question-inner icons
+ - Also need to fix the way the text looks
 
 
 <h3>Screenshots:</h3>
