@@ -23,6 +23,8 @@ We're building a platform that lets programmers log issues they get while coding
  I could not get the signup button to display the color I wanted all through the button and the space containing the words "Create your account".
  <h5>Fix:</h5>
  I switched the button element for input and it worked great.
+ 
+ <h5> Some more issues:</h5>
 
 <h3>Solution:</h3>
 
