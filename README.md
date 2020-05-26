@@ -25,6 +25,8 @@ We're building a platform that lets programmers log issues they get while coding
  I switched the button element for input and it worked great.
  
  <h5> Some more issues:</h5>
+ 
+ - Need to fix the space between the question-inner icons
 
 
 <h3>Screenshots:</h3>
