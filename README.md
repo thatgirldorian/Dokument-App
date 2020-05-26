@@ -26,7 +26,6 @@ We're building a platform that lets programmers log issues they get while coding
  
  <h5> Some more issues:</h5>
 
-<h3>Solution:</h3>
 
 <h3>Screenshots:</h3>
 
