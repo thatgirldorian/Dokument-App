@@ -1,4 +1,4 @@
-# Dokument-App
+# Dokument-App (Pausing developement for this for now)
 
 <h3>Function & Description:</h3>
 This is a web app I'm working on with my friend, Dara. I'm only responsible for the front-end (user interface).
