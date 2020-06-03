@@ -36,4 +36,9 @@ We're building a platform that lets programmers log issues they get while coding
 
 ![4](https://user-images.githubusercontent.com/40691059/81982063-1a762f80-9629-11ea-8b1a-9216ca47ff3f.PNG)
 
+![Capture1](https://user-images.githubusercontent.com/40691059/83660060-43506b80-a5bc-11ea-9f39-17f3622e6a19.PNG)
+
+![Capture2](https://user-images.githubusercontent.com/40691059/83660074-46e3f280-a5bc-11ea-9fff-416083f4e57b.PNG)
+
+
 
